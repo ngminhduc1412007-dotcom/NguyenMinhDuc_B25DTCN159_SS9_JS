@@ -1,0 +1,24 @@
+# Sơ đồ Tư duy JavaScript Object (Mindmap)
+
+- **JavaScript Object Mindmap**
+  - **1. Khái niệm & Khởi tạo**
+    - Cặp Key-Value
+    - Object Literal `{}`
+    - Kiểu dữ liệu tham chiếu (Reference)
+  - **2. Cú pháp truy cập**
+    - Dot Notation (`obj.prop`)
+    - Bracket Notation (`obj['prop']`)
+    - Truy cập động bằng biến (`obj[var]`)
+  - **3. Thao tác CRUD**
+    - Thêm / Gán thuộc tính mới
+    - Đọc giá trị thuộc tính
+    - Cập nhật giá trị hiện có
+    - Xóa thuộc tính (`delete obj.prop`)
+  - **4. Array of Objects**
+    - Mô hình bảng dữ liệu / Collection
+    - Duyệt mảng đối tượng (`for`, `for...of`)
+    - Lọc và tìm kiếm theo định danh
+  - **5. Lỗi thường gặp**
+    - Dùng sai Dot Notation với dynamic key
+    - Gán `undefined` thay vì dùng `delete`
+    - Quên dùng `[key]` khi lặp `for...in`
